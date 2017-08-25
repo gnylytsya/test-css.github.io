@@ -2,13 +2,13 @@ body{
 	background-color: #638a79;
     background-image: url("img/body-bg.png");
     background-repeat: repeat-x;
-    background-position: fixed;
 	font-size: 13px;
 	line-height: 18px;
 	color: #333;
 	font-family: arial;
 }
 .content {
+	margin: 0 auto;
 	width: 840px;
 	background-color: #fff;
 	margin-top: 100px;
@@ -31,7 +31,7 @@ h1 {
 	font-size: 26px;
 	line-height: 36px;
 	color: #2b8c57;
-	font: normal;
+	font-style: normal;
 	margin-bottom: 10px
 	
 }
