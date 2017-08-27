@@ -1,7 +1,7 @@
 body{
 	background-color: #638a79;
-    background-image: url("img/body-bg.png");
-    background-repeat: repeat-x;
+	background-image: url("img/body-bg.png");
+	background-repeat: repeat-x;
 	font-size: 13px;
 	line-height: 18px;
 	color: #333;
@@ -26,14 +26,14 @@ body{
 .content .content-middle {
 	padding: 20px 30px 20px 30px;
 }
-	
+
 h1 { 
 	font-size: 26px;
 	line-height: 36px;
 	color: #2b8c57;
 	font-style: normal;
 	margin-bottom: 10px
-	
+
 }
 h2 {
 	font-size: 18px;
@@ -76,5 +76,5 @@ a.button:hover {
 	background-position: 0px -38px;
 }
 a.button:active {
-	background-position: 0px -75px;
+	background-position: 0px -38px;
 }
