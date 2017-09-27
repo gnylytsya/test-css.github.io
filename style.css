@@ -1,12 +1,12 @@
 body {
-    background-color: #638a79;
-    background-image: url("img/body-bg.png");
-    background-repeat: repeat-x;
-    background-attachment: fixed;
-    font-size: 13px;
-    line-height: 18px;
-    color: #333;
-    font-family: Arial;
+	background-color: #638a79;
+	background-image: url("img/body-bg.png");
+	background-repeat: repeat-x;
+	background-attachment: fixed;
+	font-size: 13px;
+	line-height: 18px;
+	color: #333;
+	font-family: ;
 }
 
 .content {
@@ -27,7 +27,7 @@ body {
 .content .content-middle {
 	padding: 20px 30px;
 }
-	
+
 h1 {
 	font-size: 26px;
 	line-height: 36px;
@@ -44,7 +44,7 @@ h2 {
 	margin-top: 30px;
 	margin-bottom: 15px;
 }
-	
+
 div.block-1 {
 	color: #fff;
 	font-style: italic;
