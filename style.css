@@ -1,76 +1,77 @@
-body{
+body {
 	background-color: #638a79;
 	background-image: url("img/body-bg.png");
 	background-repeat: repeat-x;
+	background-attachment: fixed;
 	font-size: 13px;
 	line-height: 18px;
 	color: #333;
-	font-family: arial;
+	font-family: Arial;
 }
+
 .content {
-	margin: 0 auto;
 	width: 840px;
 	background-color: #fff;
-	margin-top: 100px;
+	margin: 100px auto 0;
 }
 .content .content-top {
 	height: 12px;
-	background-image: url(img/content-bg.png);
+	background-image: url("img/content-bg.png");
 	background-position: 0px 0px;
 }
 .content .content-bottom {
 	height: 12px;
 	background-image: url("img/content-bg.png");
-	background-position: 840px 0px;
+	background-position: -840px -840px;
 }
 .content .content-middle {
-	padding: 20px 30px 20px 30px;
+	padding: 20px 30px;
 }
 
-h1 { 
+h1 {
 	font-size: 26px;
 	line-height: 36px;
 	color: #2b8c57;
-	font-style: normal;
-	margin-bottom: 10px
-
+	font-weight: normal;
+	margin-bottom: 10px;
 }
-h2 {
+h2 { 
 	font-size: 18px;
 	line-height: 28px;
 	color: #2b8c57;
-	font: normal;
-	font-family: italic;
-	margin: 30px 0px 15px 0px;
+	font-weight: normal;
+	font-style: italic;
+	margin-top: 30px;
+	margin-bottom: 15px;
 }
+
 div.block-1 {
-	color: #fff;
-	background-repeat: repeat-x;
-	font-family: italic;
-	font-size: 12px;
-	padding: 20px 30px 20px 30px;
-	background-color: #2b8c57;
-	background-image: url(img/block-1-bg.png);
-}
-div.block-2 {
 	color: #fff;
 	font-style: italic;
 	font-size: 12px;
-	padding: 20px 30px 20px 30px;
+	background-image: url("img/block-1-bg.png");
+	background-repeat: repeat-x;
+	background-color: #2b8c57;
+	padding: 20px 30px;
+}
+div.block-2 {
 	background-color: #356149;
 	background-image: url("img/picture-1.png");
-	background-position: right bottom;
 	background-repeat: no-repeat;
+	background-position: right bottom;
+	color: #fff;
+	font-style: italic;
+	font-size: 12px;
+	padding: 20px 30px;
 }
 
 a.button {
-	display: block;
+	background-image: url("img/button-1.png");
+	background-position: 0px 0px;
+	display:block;
 	width: 121px;
 	height: 38px;
-	text-decoration:none;
-	background-image: url(img/button-1.png);
-	background-repeat: no-repeat;
-	background-position: 0px 0px;
+	text-decoration: none;
 }
 a.button:hover {
 	background-position: 0px -38px;
